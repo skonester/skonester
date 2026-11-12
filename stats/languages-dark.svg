@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="195" viewBox="0 0 400 195" fill="none" role="img" aria-labelledby="title desc">
 <title id="title">Languages in my contributions</title>
-<desc id="desc">V 34.3%, TypeScript 21.2%, JavaScript 15.2%, Rust 11.7%, C# 10.8%, C++ 6.7%</desc>
+<desc id="desc">V 34.1%, TypeScript 21.1%, JavaScript 15.1%, Rust 11.7%, C# 11.4%, C++ 6.7%</desc>
 <style>
   text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #f0f6fc; }
   .label { font-size: 14px; }
@@ -22,11 +22,11 @@
 <rect x="0.5" y="0.5" width="399" height="194" rx="6" fill="none" stroke="#3d444d"/>
 <text x="20" y="28" class="col">LANGUAGES IN MY CONTRIBUTIONS</text>
 <mask id="bar"><rect class="grow" x="20" y="48" width="360" height="10" rx="5" fill="#fff"/></mask>
-<g mask="url(#bar)"><rect x="20.00" y="48" width="120.04" height="10" fill="#4f87c4"/><rect x="142.04" y="48" width="74.21" height="10" fill="#3178c6"/><rect x="218.25" y="48" width="53.35" height="10" fill="#f1e05a"/><rect x="273.60" y="48" width="41.12" height="10" fill="#dea584"/><rect x="316.72" y="48" width="37.82" height="10" fill="#7355dd"/><rect x="356.54" y="48" width="23.46" height="10" fill="#f34b7d"/></g>
-<g transform="translate(20 84)"><g class="fade" style="animation-delay: 200ms"><circle cx="5" cy="6" r="5" fill="#4f87c4"/><text x="16" y="11" class="label">V <tspan class="secondary">34.3%</tspan></text></g></g>
-<g transform="translate(200 84)"><g class="fade" style="animation-delay: 270ms"><circle cx="5" cy="6" r="5" fill="#3178c6"/><text x="16" y="11" class="label">TypeScript <tspan class="secondary">21.2%</tspan></text></g></g>
-<g transform="translate(20 116)"><g class="fade" style="animation-delay: 340ms"><circle cx="5" cy="6" r="5" fill="#f1e05a"/><text x="16" y="11" class="label">JavaScript <tspan class="secondary">15.2%</tspan></text></g></g>
+<g mask="url(#bar)"><rect x="20.00" y="48" width="119.19" height="10" fill="#4f87c4"/><rect x="141.19" y="48" width="73.69" height="10" fill="#3178c6"/><rect x="216.88" y="48" width="52.93" height="10" fill="#f1e05a"/><rect x="271.81" y="48" width="40.83" height="10" fill="#dea584"/><rect x="314.64" y="48" width="40.07" height="10" fill="#7355dd"/><rect x="356.71" y="48" width="23.29" height="10" fill="#f34b7d"/></g>
+<g transform="translate(20 84)"><g class="fade" style="animation-delay: 200ms"><circle cx="5" cy="6" r="5" fill="#4f87c4"/><text x="16" y="11" class="label">V <tspan class="secondary">34.1%</tspan></text></g></g>
+<g transform="translate(200 84)"><g class="fade" style="animation-delay: 270ms"><circle cx="5" cy="6" r="5" fill="#3178c6"/><text x="16" y="11" class="label">TypeScript <tspan class="secondary">21.1%</tspan></text></g></g>
+<g transform="translate(20 116)"><g class="fade" style="animation-delay: 340ms"><circle cx="5" cy="6" r="5" fill="#f1e05a"/><text x="16" y="11" class="label">JavaScript <tspan class="secondary">15.1%</tspan></text></g></g>
 <g transform="translate(200 116)"><g class="fade" style="animation-delay: 410ms"><circle cx="5" cy="6" r="5" fill="#dea584"/><text x="16" y="11" class="label">Rust <tspan class="secondary">11.7%</tspan></text></g></g>
-<g transform="translate(20 148)"><g class="fade" style="animation-delay: 480ms"><circle cx="5" cy="6" r="5" fill="#7355dd"/><text x="16" y="11" class="label">C# <tspan class="secondary">10.8%</tspan></text></g></g>
+<g transform="translate(20 148)"><g class="fade" style="animation-delay: 480ms"><circle cx="5" cy="6" r="5" fill="#7355dd"/><text x="16" y="11" class="label">C# <tspan class="secondary">11.4%</tspan></text></g></g>
 <g transform="translate(200 148)"><g class="fade" style="animation-delay: 550ms"><circle cx="5" cy="6" r="5" fill="#f34b7d"/><text x="16" y="11" class="label">C++ <tspan class="secondary">6.7%</tspan></text></g></g>
 </svg>
