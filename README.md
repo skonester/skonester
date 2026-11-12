@@ -17,8 +17,8 @@
     <img src="stats/about-light.svg" width="400" alt="About Skonester: media players, desktop apps, F#, and Paradox">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="stats/languages-dark.svg?v=top-six">
-    <img src="stats/languages-light.svg?v=top-six" width="400" alt="Languages used across my GitHub contributions">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/skonester/skonester/refs/heads/main/stats/languages-dark.svg">
+    <img src="https://raw.githubusercontent.com/skonester/skonester/refs/heads/main/stats/languages-light.svg" width="400" alt="Languages used across my GitHub contributions">
   </picture>
 </p>
 
