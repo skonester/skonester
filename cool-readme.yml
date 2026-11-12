@@ -29,6 +29,7 @@ cards:
   languages:
     title: Languages in my contributions
     count: 6
-    other: true
+    # Show the top six languages, normalized to 100%, without an Other group.
+    other: false
   weekly:
     title: When I code
