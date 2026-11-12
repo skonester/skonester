@@ -1,0 +1,30 @@
+{
+  "name": "github-cool-readme",
+  "version": "0.1.0",
+  "description": "Generates animated SVG stat cards for a GitHub profile README",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "generate": "node src/cli.ts",
+    "dev": "node src/cli.ts --config examples/cool-readme.yml --out out --snapshot .cache/snapshot.json --preview",
+    "dev:offline": "node src/cli.ts --config examples/cool-readme.yml --out out --from-snapshot .cache/snapshot.json --preview",
+    "profile:preview": "node scripts/profile-preview.ts",
+    "test": "vitest run",
+    "typecheck": "tsc",
+    "preview": "node scripts/preview.ts",
+    "examples": "node scripts/examples.ts"
+  },
+  "dependencies": {
+    "@primer/octicons": "^19.42.0",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  },
+  "license": "MIT"
+}

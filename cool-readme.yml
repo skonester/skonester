@@ -1,0 +1,34 @@
+user: skonester
+show: [about, languages, summary, weekly]
+
+# Publish public activity by default. See docs/profile-setup.md to include private work.
+count:
+  private: false
+  orgs: true
+
+look:
+  style: classic
+  color: cyan
+  animations: true
+  background: none
+  border: true
+
+cards:
+  about:
+    title: About
+    headline: "Hi, I'm *Skonester*"
+    lines:
+      - Media player and desktop app enthusiast.
+      - A soft spot for *F#* and *Paradox*.
+      - Exploring playback, streaming, and UI ideas.
+    facts:
+      GitHub: "@skonester"
+  summary:
+    title: GitHub activity
+    ring: percent
+  languages:
+    title: Languages in my contributions
+    count: 6
+    other: true
+  weekly:
+    title: When I code

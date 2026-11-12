@@ -1,0 +1,55 @@
+name: Update profile cards
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - cool-readme.yml
+      - src/**
+      - action.yml
+      - package.json
+      - package-lock.json
+      - .github/workflows/cool-readme.yml
+  schedule:
+    - cron: '17 10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      # Use the generator in this repository. No personal token is needed for public work.
+      - name: Generate profile cards
+        uses: ./
+        with:
+          token: ${{ secrets.CARDS_TOKEN || github.token }}
+          config: cool-readme.yml
+          output: stats
+
+      # Keep the paths in the README valid before and after the first refresh.
+      # Changes only under stats/ do not match the push paths above.
+      - name: Save updated cards
+        shell: bash
+        run: |
+          git add -- stats/*.svg
+          if git diff --cached --quiet; then
+            echo "Profile cards are already up to date."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh profile cards'
+          git push origin HEAD:main
