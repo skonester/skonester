@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="195" viewBox="0 0 400 195" fill="none" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="206" viewBox="0 0 400 206" fill="none" role="img" aria-labelledby="title desc">
 <title id="title">Languages in my contributions</title>
-<desc id="desc">Awaiting the first GitHub Actions refresh. No activity data has been loaded yet.</desc>
+<desc id="desc">V 24.7%, TypeScript 14.8%, JavaScript 11.0%, Rust 8.4%, C# 7.8%, C++ 4.8%, Other 28.5%</desc>
 <style>
   text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; fill: #1f2328; }
   .label { font-size: 14px; }
@@ -19,11 +19,15 @@
   @keyframes pop { from { opacity: 0; transform: scale(0.6); } }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
-<rect x="0.5" y="0.5" width="399" height="194" rx="6" fill="none" stroke="#d1d9e0"/>
+<rect x="0.5" y="0.5" width="399" height="205" rx="6" fill="none" stroke="#d1d9e0"/>
 <text x="20" y="28" class="col">LANGUAGES IN MY CONTRIBUTIONS</text>
-<circle cx="25" cy="78" r="4" fill="#0e8a9a"/>
-<text x="40" y="83" class="value">First refresh pending</text>
-<text x="20" y="113" class="label secondary">Public GitHub activity will appear here</text>
-<text x="20" y="135" class="label secondary">after the profile workflow runs.</text>
-<text x="20" y="170" class="small muted">skonester / updated daily</text>
+<mask id="bar"><rect class="grow" x="20" y="48" width="360" height="10" rx="5" fill="#fff"/></mask>
+<g mask="url(#bar)"><rect x="20.00" y="48" width="85.82" height="10" fill="#4f87c4"/><rect x="107.82" y="48" width="51.60" height="10" fill="#3178c6"/><rect x="161.41" y="48" width="38.14" height="10" fill="#f1e05a"/><rect x="201.55" y="48" width="29.39" height="10" fill="#dea584"/><rect x="232.94" y="48" width="27.04" height="10" fill="#7355dd"/><rect x="261.98" y="48" width="16.77" height="10" fill="#f34b7d"/><rect x="280.76" y="48" width="99.24" height="10" fill="#8c959f"/></g>
+<g transform="translate(20 84)"><g class="fade" style="animation-delay: 200ms"><circle cx="5" cy="6" r="5" fill="#4f87c4"/><text x="16" y="11" class="label">V <tspan class="secondary">24.7%</tspan></text></g></g>
+<g transform="translate(200 84)"><g class="fade" style="animation-delay: 270ms"><circle cx="5" cy="6" r="5" fill="#3178c6"/><text x="16" y="11" class="label">TypeScript <tspan class="secondary">14.8%</tspan></text></g></g>
+<g transform="translate(20 116)"><g class="fade" style="animation-delay: 340ms"><circle cx="5" cy="6" r="5" fill="#f1e05a"/><text x="16" y="11" class="label">JavaScript <tspan class="secondary">11.0%</tspan></text></g></g>
+<g transform="translate(200 116)"><g class="fade" style="animation-delay: 410ms"><circle cx="5" cy="6" r="5" fill="#dea584"/><text x="16" y="11" class="label">Rust <tspan class="secondary">8.4%</tspan></text></g></g>
+<g transform="translate(20 148)"><g class="fade" style="animation-delay: 480ms"><circle cx="5" cy="6" r="5" fill="#7355dd"/><text x="16" y="11" class="label">C# <tspan class="secondary">7.8%</tspan></text></g></g>
+<g transform="translate(200 148)"><g class="fade" style="animation-delay: 550ms"><circle cx="5" cy="6" r="5" fill="#f34b7d"/><text x="16" y="11" class="label">C++ <tspan class="secondary">4.8%</tspan></text></g></g>
+<g transform="translate(20 180)"><g class="fade" style="animation-delay: 620ms"><circle cx="5" cy="6" r="5" fill="#8c959f"/><text x="16" y="11" class="label">Other <tspan class="secondary">28.5%</tspan></text></g></g>
 </svg>
