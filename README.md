@@ -1,20 +1,20 @@
 <h1 align="center">Hey, I'm Skonester.</h1>
 
 <p align="center">
-  Media players. Desktop apps. A soft spot for F# and V.
+  Media players. Desktop apps. Paradox
 </p>
 
 <p align="center">
   <a href="https://github.com/skonester?tab=repositories">Explore my projects</a>
   &nbsp;&middot;&nbsp;
-  <a href="https://github.com/skonester/CedarApple">Check out CedarApple</a>
+  <a href="https://github.com/skonester/CineK">Check out CineK</a>
 </p>
 
 <!-- cool-readme:start -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="stats/about-dark.svg">
-    <img src="stats/about-light.svg" width="400" alt="About Skonester: media players, desktop apps, F#, and Paradox">
+    <img src="stats/about-light.svg" width="400" alt="About Skonester: media players, desktop apps. Paradox">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/skonester/skonester/refs/heads/main/stats/languages-dark.svg">
@@ -36,9 +36,9 @@
 
 ## On my workbench
 
-### [HeapSeed](https://github.com/skonester/HeapSeed)
+### [Shiira](https://github.com/skonester/Shiira)
 
-A desktop BitTorrent client with MP4 playback while downloads are still in progress. Built with Electron, WebTorrent, Svelte, and Plyr.
+An Arc Style Electron Web Browser
 
 I'm interested in the details that make media software feel good to use: playback, streaming, and the interface around them.
 
